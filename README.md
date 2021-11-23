@@ -22,6 +22,18 @@ make install
 
 NOTICE:cmake version must >=3.13.2
 
+## apex
+
+git clone https://github.com/NVIDIA/apex
+
+cd apex/
+
+git checkout eefb1ba
+
+pip install -r requirements.txt 
+
+pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+
 ## run code
 
 创建数据：python tools/create_data.py nuscenes_data_prep --root_path=/media/lab414/5181a349-6af4-4c01-bd8e-6f511d314bd4/NUSCENES_DATASET_ROOT --version="v1.0-trainval" --nsweeps=10
