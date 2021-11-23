@@ -9,8 +9,13 @@ apex 0.1
 cmake 3.13.2
 ### 安装cmake
 wget https://cmake.org/files/v3.13/cmake-3.13.2.tar.gz
+
 tar -xzvf cmake-3.13.2.tar.gz
+
 cd cmake-3.13.2
+
 ./bootstrap
+
 make -j4
+
 make install
