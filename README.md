@@ -4,3 +4,6 @@ ubuntu 18
 pytorch 1.4.0
 cuda 10.1
 cudnn 7.5
+spconv 1.0
+apex 0.1
+cmake 3.13.2
