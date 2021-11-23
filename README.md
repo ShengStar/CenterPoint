@@ -19,3 +19,6 @@ cd cmake-3.13.2
 make -j4
 
 make install
+
+NOTICE:cmake version must >=3.13.2
+
